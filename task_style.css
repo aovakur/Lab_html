@@ -1,0 +1,154 @@
+body {
+  font: 15px Segoe UI, Helvetica, sans-serif;
+  background: lightsalmon;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  color: crimson;
+  margin-bottom: 0;
+}
+
+#container {
+  width: 1600px;
+  margin: 0 auto; 
+  background: #f0f0f0;
+}
+
+#header {
+  height: 50px;
+  line-height: 50px;
+  background: Crimson; 
+  font-size: 35px;
+  font-weight: bold;
+  color: gold;
+  padding: 5px;
+  text-align: center;
+}
+#content {
+  float: left;
+  width: 1300px;
+  padding: 10px;
+  border-right: 1px dashed #183533; 
+  background: #fff; 
+   }
+
+#content p {
+  margin-top: 0.3em;
+}
+
+.button {
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
+  background: crimson;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+   }
+
+.button a {
+  text-decoration: none;
+  color: gold;
+  font-weight: 600;
+  }
+.LINK-1, .LINK-2, .LINK-3, .LINK-4, .LINK-5 {
+  width 400px
+  height 100px
+  background-color: red;
+  display: inline-block;
+  cursor: pointer;
+}
+#sidebar {
+  float: left;
+  width: 200px; 
+  padding: 10px; 
+}
+
+#footer {
+  line-height: 50px;
+  font-size: 25px;
+  height: 50px;
+  background: Crimson; 
+  color: gold; 
+  padding: 5px; 
+}
+
+.clear { 
+    clear: both;
+}
+
+.link-1:hover {
+ background-color: gold;
+}
+
+.link-2:hover {
+  text-decoration: line-through;
+}
+
+
+.link-3:hover {
+  width: 1500px;
+  background-color: gainsboro;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.square-2 {
+  position: center;
+  width: 300px;
+  height: 300px;
+ display: inline-block;
+  cursor: pointer;
+}
+
+.square-2:hover {
+  opacity: .2;
+}
+
+.link-6:hover {
+  background-color: green;
+}
+
+.link-4:hover {
+color: crimson;
+}
+
+.link-5:hover {
+  text-decoration: line-through;
+}
+
+h3 {
+  font-size: 30px;
+  color: crimson;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: .7s linear;
+}
+
+h3:hover {
+  color: gold;
+}
+
+.img_1 {
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: .7s linear;
+  opacity: .1;
+}
+
+.img_1:hover {
+  opacity: 1;
+}
+
+img{
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: .7s linear;
+ }
+
+img:hover {
+ border-radius:300px;
+}
